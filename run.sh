@@ -1,6 +1,6 @@
 PROG=`pwd`
 CODE="$PROG/code"
-LIB="$CODE/lib"
+LIB="$PROG/lib"
 XLS="$PROG/xls"
 OUTPUT="$PROG/output"
 
@@ -13,7 +13,7 @@ CP="$CP:$LIB/xmlbeans-2.6.0.jar"
 CP="$CP:$LIB/xercesImpl.jar:$LIB/xml-apis.jar"
 
 # run java
-java -cp $CP J_Cvt "$XLS/test.xls" $OUTPUT "a,b,c,d,e" 5 1 HAHAHA
+java -cp $CP J_Cvt "$XLS/test.xls" $OUTPUT/test.txt "a,b,c,d,e" 5 1 HAHAHA
 
 #java -cp $CP J_Value "$XLS/test.xlsx" b1 1
 
