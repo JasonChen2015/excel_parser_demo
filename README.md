@@ -26,7 +26,7 @@ Prefix_String: For individual use, the prefix string of each ouput line, can be 
 ```bash
 java -cp Class_Path J_Value Input_File Output_Cell Sheet_No
 ```
-J_Cell.java is used to get one cell  content of a sheet in excel file
+J_Value.java is used to get one cell  content of a sheet in excel file
 
 ```
 Input_File:    The input excel file.
