@@ -40,13 +40,13 @@ Apache POI (currently use POI 3.15)
 
 * poi-3.15.jar
 * poi-ooxml-3.15.jar
-* poi-ooxml-schemas-3.15.jar"
-* xmlbeans-2.6.0.jar"
+* poi-ooxml-schemas-3.15.jar
+* xmlbeans-2.6.0.jar
 
 Apache Xerces Project (currently use Xerces2 Java 2.11.0)
 
 * xercesImpl.jar
-* xml-apis.jar"
+* xml-apis.jar
 
 
 ## Features
